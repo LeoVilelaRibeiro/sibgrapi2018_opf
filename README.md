@@ -39,6 +39,9 @@ opfy_opf maptask_samples.dat -k=15
 opfy_numpy .
 ```
 
+## Label frequencies
+To inspect the label frequencies on each dataset, please refer to `experiments/set_statistics.ipynb`. Notice that the graphs can be seen without running the code as GitHub renders Jupyter notebooks.
+
 ## References
 
 To be added in the future.
