@@ -1,0 +1,7 @@
+numpy==1.14.2
+nltk==3.2.5
+sklearn>=0.0
+gensim==3.2.0
+scipy==1.0.0
+future==0.16.0
+matplotlib==2.2.2
