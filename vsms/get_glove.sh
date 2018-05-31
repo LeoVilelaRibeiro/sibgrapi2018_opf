@@ -11,7 +11,7 @@ echo "================================"
 echo "Generating gensim representation"
 echo "================================"
 
-python binarize_glove.py
+python convert_glove.py
 rm wglove.840B.300d.txt
 
 echo "Done"
