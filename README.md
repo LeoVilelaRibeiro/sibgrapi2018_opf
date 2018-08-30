@@ -21,7 +21,7 @@ It is possible to obtain each dataset used on the experiments by running the scr
 
 Before generating the data splits, it is necessary to have Stanford GloVe and CoreNLP placed on the required folders and to have the proper version of `LibOPF` installed. This latter step is not necessary if you just want to obtain a copy of the data used to run the experiments.
 
-GloVe can be obtained by running the script `vsms/get_glove.sh`. Please notice this will download a 2.1Gb file and then convert it to the Gensim binary format, which may take some space and time. Next, CoreNLP (we use version 3.9.0) can be downloaded through `get_corenlp.sh`.
+GloVe can be obtained by running the script `vsms/get_glove.sh`. Please notice this will download a 2.1Gb file and then convert it to the Gensim binary format, which may take some space and time. Next, CoreNLP (we use version 3.9.0) can be downloaded through `tokenizer/get_corenlp.sh`.
 
 Instead of downloading the canonical version of [LibOPF](https://github.com/jppbsi/LibOPF), we recommend using the code from the branch  `deep` from this [alternative repository](https://github.com/lzfelix/LibOPF), which contains the M-OPF implementation. Simple instructions on how to install the OPF framework are provided on the [original repository wiki](https://github.com/jppbsi/LibOPF/wiki/Installation). Following, you might want to consider creating an environment variable `$OPF_PATH` pointing to  LibOPF's `bin/` directory.
 
